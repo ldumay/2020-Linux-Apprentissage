@@ -1,0 +1,77 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mtl          957  0.0  0.2  19800 11112 ?        Ss   10:47   0:00 /lib/systemd/systemd --user
+mtl          958  0.0  0.0 103680  3516 ?        S    10:47   0:00 (sd-pam)
+mtl          964  0.0  0.4 1675656 24772 ?       S<sl 10:47   0:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+mtl          966  0.0  0.4 1120444 25160 ?       SNsl 10:47   0:00 /usr/libexec/tracker-miner-fs
+mtl          969  0.0  0.1 243084  7412 ?        SLl  10:47   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+mtl          973  0.0  0.1 166728  6556 tty2     Ssl+ 10:47   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+mtl          975  0.8  2.3 890140 116400 tty2    Rl+  10:47   2:45 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+mtl          979  0.0  0.1  10920  8260 ?        Ss   10:47   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mtl          984  0.0  0.1 242560  7884 ?        Ssl  10:47   0:00 /usr/libexec/gvfsd
+mtl          989  0.0  0.1 382052  8536 ?        Sl   10:47   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+mtl          997  0.0  0.2 320332 11796 ?        Ssl  10:47   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+mtl         1015  0.0  0.1 238624  6244 ?        Ssl  10:47   0:00 /usr/libexec/gvfs-goa-volume-monitor
+mtl         1019  0.0  0.7 545068 36852 ?        Sl   10:47   0:00 /usr/libexec/goa-daemon
+mtl         1042  0.0  0.2 395204 11688 ?        Sl   10:47   0:00 /usr/libexec/goa-identity-service
+mtl         1044  0.0  0.3 193632 15660 tty2     Sl+  10:47   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+mtl         1053  0.0  0.1 240692  6820 ?        Ssl  10:47   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+mtl         1067  0.0  0.1 319476  9088 ?        Ssl  10:47   0:10 /usr/libexec/gvfs-afc-volume-monitor
+mtl         1081  0.0  0.1 238416  6340 ?        Ssl  10:47   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+mtl         1145  0.0  0.0  25148   360 ?        S    10:47   0:00 /usr/bin/VBoxClient --clipboard
+mtl         1147  0.0  0.0 157548  4064 ?        Sl   10:47   0:00 /usr/bin/VBoxClient --clipboard
+mtl         1155  0.0  0.0  25148   364 ?        S    10:47   0:00 /usr/bin/VBoxClient --seamless
+mtl         1156  0.0  0.0 157384  2760 ?        Sl   10:47   0:00 /usr/bin/VBoxClient --seamless
+mtl         1162  0.0  0.0  25148   360 ?        S    10:47   0:00 /usr/bin/VBoxClient --draganddrop
+mtl         1164  3.1  0.0 157900  2788 ?        Sl   10:47  10:18 /usr/bin/VBoxClient --draganddrop
+mtl         1169  0.0  0.0  25148   364 ?        S    10:47   0:00 /usr/bin/VBoxClient --vmsvga
+mtl         1170  0.0  0.0 159656  3448 ?        Sl   10:47   0:00 /usr/bin/VBoxClient --vmsvga
+mtl         1175  0.0  0.0   6032   456 ?        Ss   10:47   0:01 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+mtl         1214  0.0  0.1 309728  9380 ?        Ssl  10:47   0:00 /usr/libexec/at-spi-bus-launcher
+mtl         1219  0.0  0.0   7224  4264 ?        S    10:47   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+mtl         1241  0.0  0.0  92772  4280 ?        Ssl  10:47   0:00 /usr/libexec/gnome-session-ctl --monitor
+mtl         1248  0.0  0.3 629596 18508 ?        Ssl  10:47   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+mtl         1262  1.3  9.9 4931592 501464 ?      Ssl  10:47   4:32 /usr/bin/gnome-shell
+mtl         1291  0.0  0.2 317552 10656 ?        Sl   10:47   0:00 ibus-daemon --panel disable --xim
+mtl         1295  0.0  0.1 243224  9432 ?        Sl   10:47   0:00 /usr/libexec/ibus-dconf
+mtl         1296  0.0  0.6 281308 34012 ?        Sl   10:47   0:01 /usr/libexec/ibus-extension-gtk3
+mtl         1300  0.0  0.6 203636 30676 ?        Sl   10:47   0:00 /usr/libexec/ibus-x11 --kill-daemon
+mtl         1302  0.0  0.1 243204  9352 ?        Sl   10:47   0:00 /usr/libexec/ibus-portal
+mtl         1313  0.0  0.1 162896  6352 ?        Sl   10:47   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+mtl         1317  0.0  0.1 238444  5924 ?        Ssl  10:47   0:00 /usr/libexec/xdg-permission-store
+mtl         1321  0.0  0.4 581980 21396 ?        Sl   10:47   0:00 /usr/libexec/gnome-shell-calendar-server
+mtl         1328  0.0  0.5 1073392 26784 ?       Ssl  10:47   0:00 /usr/libexec/evolution-source-registry
+mtl         1338  0.0  0.6 841792 30420 ?        Ssl  10:47   0:00 /usr/libexec/evolution-calendar-factory
+mtl         1352  0.0  0.1 156200  5648 ?        Sl   10:47   0:00 /usr/libexec/dconf-service
+mtl         1361  0.0  0.5 676432 30316 ?        Ssl  10:47   0:00 /usr/libexec/evolution-addressbook-factory
+mtl         1376  0.0  0.5 2736784 26908 ?       Sl   10:47   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+mtl         1384  0.0  0.2 320440 11128 ?        Sl   10:47   0:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+mtl         1395  0.0  0.1 316836  9340 ?        Ssl  10:47   0:00 /usr/libexec/gsd-a11y-settings
+mtl         1396  0.0  0.6 967044 32500 ?        Ssl  10:47   0:01 /usr/libexec/gsd-color
+mtl         1397  0.0  0.3 377272 17708 ?        Ssl  10:47   0:00 /usr/libexec/gsd-datetime
+mtl         1398  0.0  0.1 317080  9860 ?        Ssl  10:47   0:00 /usr/libexec/gsd-housekeeping
+mtl         1399  0.0  0.6 351652 31136 ?        Ssl  10:47   0:00 /usr/libexec/gsd-keyboard
+mtl         1400  0.0  0.6 906968 33728 ?        Ssl  10:47   0:00 /usr/libexec/gsd-media-keys
+mtl         1404  0.0  0.6 425944 32124 ?        Ssl  10:47   0:01 /usr/libexec/gsd-power
+mtl         1406  0.0  0.2 250984 11396 ?        Ssl  10:47   0:00 /usr/libexec/gsd-print-notifications
+mtl         1407  0.0  0.1 459868  6068 ?        Ssl  10:47   0:00 /usr/libexec/gsd-rfkill
+mtl         1408  0.0  0.1 238280  6196 ?        Ssl  10:47   0:00 /usr/libexec/gsd-screensaver-proxy
+mtl         1409  0.0  0.2 398088 12904 ?        Ssl  10:47   0:00 /usr/libexec/gsd-sharing
+mtl         1410  0.0  0.2 321000 10996 ?        Ssl  10:47   0:00 /usr/libexec/gsd-smartcard
+mtl         1411  0.0  0.2 324604 11288 ?        Ssl  10:47   0:00 /usr/libexec/gsd-sound
+mtl         1415  0.0  0.1 390816  9764 ?        Ssl  10:47   0:00 /usr/libexec/gsd-usb-protection
+mtl         1416  0.0  0.6 277456 30716 ?        Ssl  10:47   0:00 /usr/libexec/gsd-wacom
+mtl         1419  0.0  0.2 321160 10812 ?        Ssl  10:47   0:00 /usr/libexec/gsd-wwan
+mtl         1421  0.0  0.6 352320 32272 ?        Ssl  10:47   0:01 /usr/libexec/gsd-xsettings
+mtl         1458  0.0  1.2 712288 62416 ?        Sl   10:47   0:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+mtl         1496  0.0  0.1 231792  5764 ?        Sl   10:47   0:00 /usr/libexec/gsd-disk-utility-notify
+mtl         1530  0.0  4.2 1232088 212432 ?      Sl   10:47   0:12 /snap/snap-store/481/usr/bin/snap-store --gapplication-service
+mtl         1539  0.0  0.3 344956 15308 ?        Sl   10:47   0:00 /usr/libexec/gsd-printer
+mtl         1576  0.0  0.1 534116  6848 ?        Ssl  10:47   0:00 /usr/libexec/xdg-document-portal
+mtl         1588  0.0  0.1 169396  9352 ?        Sl   10:47   0:00 /usr/libexec/ibus-engine-simple
+mtl         2156  0.0  0.1 165040  6492 ?        Ssl  10:48   0:00 /usr/libexec/gvfsd-metadata
+mtl         2159  0.0  0.8 467324 44720 ?        Sl   10:48   0:04 update-notifier
+mtl         2502  0.2  1.1 825904 56288 ?        Ssl  10:49   0:58 /usr/libexec/gnome-terminal-server
+mtl         2510  0.0  0.1  13536  5224 pts/0    Ss   10:49   0:01 bash
+mtl         3076  0.1  1.8 1353124 95256 ?       Sl   10:51   0:23 /usr/bin/nautilus --gapplication-service
+mtl         5706  0.0  0.5 438312 30280 ?        Ssl  10:53   0:10 /usr/libexec/tracker-store
+mtl        21882  0.0  0.0  14132  3408 pts/0    R+   16:17   0:00 ps ux

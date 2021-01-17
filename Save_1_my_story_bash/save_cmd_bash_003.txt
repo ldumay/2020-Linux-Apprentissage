@@ -1,0 +1,825 @@
+    1  apt-get update && atp-get upgrade
+    2  sudo apt-get update && atp-get upgrade
+    3  sudo apt-get update && apt-get upgrade
+    4  clear
+    5  ls
+    6  pwd
+    7  cd
+    8  cd /urs/local
+    9  /usr/local
+   10  cd /usr/local
+   11  pwd
+   12  ls
+   13  cd
+   14  touche mon_premier_fichier.txt
+   15  touch mon_premier_fichier.txt
+   16  touch mon_deuxieme_fichier.txt
+   17  touch mon_troisieme_fichier.txt
+   18  touch mon_quatrieme_fichier.txt
+   19  touch mon_cinquieme_fichier.txt
+   20  touch mon_sixieme_fichier.txt
+   21  touch mon_septieme_fichier.txt
+   22  touch mon_huitieme_fichier.txt
+   23  touch mon_neuvieme_fichier.txt
+   24  touch mon_dixieme_fichier.txt
+   25  mkdir mon_premier_deossier
+   26  mv mon_premier_fichier.txt mon_premier_deossier
+   27  ls mon_premier_deossier
+   28  mv mon_deuxeieme_fichier.txt mon_premier_deossier/file_02.txt
+   29  mv mon_deuxeieme_fichier.txt mon_premier_deossier/file_02
+   30  mv mon_deuxieme_fichier.txt mon_premier_deossier/file_02
+   31  mv mon_troisieme_fichier.txt mon_premier_deossier/file_03
+   32  mv mon_quatrieme_fichier.txt mon_premier_deossier/file_04
+   33  mv mon_cinquieme_fichier.txt mon_premier_deossier/file_05
+   34  mv mon_sixieme_fichier.txt mon_premier_deossier/file_06
+   35  mv mon_septieme_fichier.txt mon_premier_deossier/file_07
+   36  mv mon_huitieme_fichier.txt mon_premier_deossier/file_08
+   37  mv mon_huitieme_fichier.txt mon_premier_deossier/file_0
+   38  mv mon_neuvieme_fichier.txt mon_premier_deossier/file_09
+   39  mv mon_dixieme_fichier.txt mon_premier_deossier/file_10
+   40  ls mon_premier_deossier
+   41  mv mon_premier_deossier mon_premier_dossier
+   42  mv on_premier_dossier folder_01
+   43  mv mon_premier_dossier folder_01
+   44  ls - 
+   45  ls -l
+   46  cd folder_01/
+   47  ls -l
+   48  mv mon_premier_fichier.txt file_01
+   49  ls -l
+   50  mv file_01 file_01.txt
+   51  mv file_02 file_02.txt
+   52  mv file_03 file_03.txt
+   53  mv file_04 file_04.txt
+   54  mv file_05 file_05.txt
+   55  mv file_06 file_06.txt
+   56  mv file_07 file_07.txt
+   57  mv file_08 file_08.txt
+   58  mv file_09 file_09.txt
+   59  mv file_10 file_10.txt
+   60  ls -l
+   61  *
+   62  *.txt
+   63  id
+   64  date
+   65  who
+   66  more
+   67  more file_01.txt
+   68  clear
+   69  wc -c file_01.txt
+   70  wc -c file_02.txt
+   71  wc -i file_02.txt
+   72  wc -l file_01.txt
+   73  wc -w file_01.txt
+   74  cat file_01.txt
+   75  tail -5 file_01.txt
+   76  tail -2 file_01.txt
+   77  nano file_01.txt
+   78  find . -type f -name "1.txt"
+   79  find . -type f -name "file_01.txt"
+   80  ps 
+   81  ps ux
+   82  ps us more
+   83  ps [option]
+   84  ls -il | sort -n
+   85  ls -il | sort -n echo "Hello World !" >> file_02.txt
+   86  echo "Hello World !" >> file_02.txt
+   87  cat file_02.txt
+   88  echo "My name is Brian. I like chocolate and milk. My car is a amazing !" >> file_02.txt
+   89  cat file_02.txt
+   90  vim file_02.txt
+   91  nano file_02.txt
+   92  diff file_01.txt file_02.txt
+   93  diff file_02.txt file_03.txt
+   94  nano file_02.txt
+   95  nano file_03.txt
+   96  diff file_02.txt file_03.txt
+   97  cat *.txt
+   98  clear
+   99  clear | grep -i "du"
+  100  clear | grep -i "Hello"
+  101  cd /usr/bin/
+  102  ls l-
+  103  ls -l
+  104  which grep
+  105  echo $PATH
+  106  grep
+  107  which grep
+  108  grep -i
+  109  grep -i "Hello"
+  110  cd
+  111  ls
+  112  cd folder_01
+  113  clear
+  114  ls -l
+  115  cat *.txt | grep -i "du" | sort
+  116  cat *.txt | grep -i "du"
+  117  clesr 
+  118  ls -i
+  119  ls -il
+  120  ls -i [ac].txt
+  121  ls l
+  122  ls l file_01.txt
+  123  ls -l
+  124  history
+  125  cd
+  126  mkdir TP1
+  127  mdkir TD1
+  128  mkdir TD1
+  129  rmv TP1
+  130  rmdir rep TP1
+  131  rmdir TP1
+  132  rmdir -rf TP1
+  133  rm -rf TP1
+  134  rm -rf TD1
+  135  mkdir TP1 | mkdir TD1
+  136  rm -rf TP1
+  137  mkdir TPD1 | mkdir TD1
+  138  ls -l
+  139  ls
+  140  cat file_02.txt
+  141  cat file_01.txt
+  142  clear
+  143  history
+  144  cat folder_01/file_01.txt
+  145  touch TP1/montext.txt
+  146  mv TP1/montext.txt TD1
+  147  gedit montext.txt
+  148  emacs montext.txt
+  149  gedit montext.txt
+  150  clear
+  151  mv montext.txt TP1
+  152  clear
+  153  rm -rf TD1/montext.txt
+  154  clear
+  155  mv TP1/montext.txt TD1 | ls -l TD1 | ls-l TP1
+  156  mv TP1/montext.txt TD1 | ls -l /TD1 | ls-l /TP1
+  157  mv TP1/montext.txt TD1 | ls -l TD1 | ls -l TP1
+  158  clear
+  159  cp TD1/montext.txt TP1
+  160  ls -l TD1
+  161  ls -l TP1
+  162  ls -l TD1 TP1
+  163  ls TD1 TP1
+  164  rm TD1/*
+  165  ls TD1 TP1
+  166  mkdir TP1/include
+  167  cp /usr/include/* TP1/include
+  168  cp -r /usr/include/* TP1/include
+  169  ls TP1/include
+  170  ls -ls TP1/include
+  171  ls -l TP1/include
+  172  id
+  173  groups
+  174  cat TP1/montext.txt > TP1/montext2.txt
+  175  clear
+  176  cat TP1/catEdit.txt
+  177  man cat TP1/catEdit.txt
+  178  cd tP1
+  179  cd TP1
+  180  cat -n montext.txt montext2.txt > catEdit.txt
+  181  nano catEdit.txt
+  182  rm rf catEdit.txt 
+  183  cat montext.txt montext2.txt > catEdit.txt
+  184  nano catEdit.txt
+  185  cat <<FIN> catEdit.txt
+  186  cat >> catEdit.txt
+  187  catEdit.txt
+  188  cat catEdit.txt
+  189  nano catEdit.txt 
+  190  cat catEdit.txt
+  191  clear
+  192  cat montext.txt caEdit.txt > concat.txt
+  193  cat montext.txt > concat.txt
+  194  rm -rf concat.txt 
+  195  cat montext.txt > concat.txt
+  196  rm -rf concat.txt 
+  197  rm -rf catEdit.txt 
+  198  cat montext.txt > catEdit.txt
+  199  cat catEdit.txt 
+  200  cat >> catEdit.txt 
+  201  cat catEdit.txt 
+  202  cat montext.txt catEdit.txt > concat.txt
+  203  cat concat.txt 
+  204  wc -w concat.txt 
+  205  cd 
+  206  cd /TP1
+  207  cd TP1
+  208  cd /TD1
+  209  cd ./TD1
+  210  cd TD1
+  211  cd ../TD1
+  212  cd
+  213  clear
+  214  cd TP1
+  215  cd ../TD1
+  216  cd
+  217  cd folder_01/
+  218  cp file_10.txt file_1.txt 
+  219  diff file_1.txt file_10.txt 
+  220  diff -r file_1.txt file_10.txt 
+  221  touch toto
+  222  touch titi
+  223  cp toto titi
+  224  diff toto titi
+  225  nano titi
+  226  nona toto
+  227  nano toto
+  228  diff toto titi
+  229  cp toto titi
+  230  diff toto titi
+  231  cat toto
+  232  cat titi
+  233  cd 
+  234  ls -l
+  235  chmod 755 folder_01/
+  236  cd folder_01/
+  237  ls
+  238  ls -l
+  239  cd
+  240  chmod 755 folder_01/*
+  241  cd folder_01/
+  242  ls -l
+  243  ps ux
+  244  cd ../TPD1
+  245  cd ../TP1
+  246  ps ux > ps_ux.txt
+  247  clear
+  248  cd
+  249  clear
+  250  touch dessus.txt
+  251  nano dessus.txt 
+  252  ./
+  253  cd /
+  254  ls -l
+  255  cd 
+  256  touch list_rep_unix.txt
+  257  nano
+  258  nano list_rep_unix.txt 
+  259  cd /
+  260  tree
+  261  sudo apt install tree
+  262  tree
+  263  clear
+  264  cd /
+  265  cd
+  266  cd /
+  267  clear
+  268  tree /urs
+  269  tree /usr
+  270  cd
+  271  tree / > tree_1.txt
+  272  pwd
+  273  cd /
+  274  /home/mtl
+  275  cd /home/mtl
+  276  cd /
+  277  cd /mtl
+  278  cd /
+  279  cd ../
+  280  cd ~
+  281  cd
+  282  cd TD1
+  283  touch toto
+  284  > titi
+  285  lr -R ~/info/
+  286  ls -R ~/info/
+  287  ls l-
+  288  ls -l
+  289  ls
+  290  cd
+  291  ls
+  292  sudo ls -R ~/info/
+  293  cd TD1
+  294  sudo ls -R ~/info/
+  295  sudo ls -R ~/Info/
+  296  thread
+  297  cd
+  298  cd /
+  299  ls
+  300  rmdir tmp
+  301  sudo rmdir tmp
+  302  sudo rm -r tmp
+  303  ls
+  304  mrkdir tmp
+  305  mkdir tmp
+  306  sudo mkdir tmp
+  307  ls
+  308  chmod -R 777 tmp
+  309  sudo chmod -R 777 tmp
+  310  ls
+  311  cd
+  312  clear
+  313  head -15 dessus.txt 
+  314  echo
+  315  ls
+  316  echo -h
+  317  cd ../tmp
+  318  cd /tmp
+  319  ls
+  320  cd
+  321  touch TD1/tata
+  322  cd
+  323  cd /
+  324  cd tmp
+  325  ls
+  326  cd
+  327  head -24 | tail -31
+  328  head -24 dessus.txt | tail -31
+  329  head -24 dessus.txt | tail -31 dessus.txt 
+  330  cat dessus.txt 
+  331  clear
+  332  seq 24 31 | tail -n +24
+  333  seq 24 31
+  334  seq 24 31 dessus.txt | tail -n +24
+  335  cat dessus.txt | tail -n +24
+  336  cat dessus.txt | tail 31 | head 24
+  337  cat dessus.txt | head 24 | tail 31
+  338  cat dessus.txt | tail -31 | head -24
+  339  cat dessus.txt | tail -31 dessus.txt | head -24 dessus.txt 
+  340  more dessus.txt 
+  341  less dessus.txt 
+  342  ls -h
+  343  ls -l -h
+  344  cat $ cat .
+  345  cat .bash_profile
+  346  head -n 25
+  347  head -n 25 dessus.txt 
+  348  sedman
+  349  sed -h
+  350  sed -n 24 31 dessus.txt 
+  351  sed -n 24 dessus.txt 
+  352  sed -n 24p 31p dessus.txt 
+  353  sed -n 24p dessus.txt 
+  354  head -n 11 dessus.txt | tail -n 1
+  355  head -n 24 dessus.txt | tail -n 31
+  356  tree
+  357  ls 
+  358  ls -f
+  359  ls -F
+  360  ls -h
+  361  ls -l
+  362  ls -l | grep "\-rwxr-xr-x"
+  363  ls -l
+  364  cd info
+  365  cd /
+  366  cd info
+  367* cd
+  368  cd info; tree
+  369  cd tp
+  370  cd 
+  371  cd /tp
+  372  cd ls
+  373  ls
+  374  cd /TP
+  375  cd TP
+  376  ls
+  377  cd info; tree
+  378  cd
+  379  cd TP/info; tree
+  380  cd TP
+  381  cd info; tree > info.tree
+  382  cd info; tree > cat info.tree
+  383  cd info; tree > inf
+  384  cd info; tree > infa
+  385  cd info tree > cat info.tree
+  386  tree > cat info.tree
+  387  cat < info.tree
+  388  ls
+  389  rmv -rf infa | rm -rf info.tree
+  390  rmv -rf infa | rmv -rf info.tree
+  391  rm -rf infa && rm -rf info.tree
+  392  ls
+  393  cat  inf
+  394  rm -rf inf
+  395  ls
+  396  cd
+  397  ls 
+  398  cat dessus.txt
+  399  head -31 dessus.txt | tail -6 <=> head -31 dessus.txt | tail -$((31-24-1))
+  400  head -31 dessus.txt 
+  401  head -31 dessus.txt | tail +24
+  402  head -31 dessus.txt | tail -24
+  403  head -31 dessus.txt | tail +24
+  404  head -31 dessus.txt | tail -24
+  405  clear
+  406  head -31 dessus.txt | tail -24
+  407  head -31 dessus.txt | tail +24
+  408  head -31 dessus.txt
+  409  head +31 dessus.txt | tail +24
+  410  tail -6<=> -31 dessus.txt
+  411  tail -6<=> head -31 dessus.txt
+  412  head -31 dessus.txt | tail -$((31-24-1))
+  413  head -31 dessus.txt | tail -$((31-24))
+  414  clear
+  415  cp dessus.txt TP
+  416  ls 
+  417  c dTP
+  418  cd TP
+  419  ls
+  420  ls -h
+  421  history
+  422  ls -l
+  423  cd TP; mv dessus.txt Dessus.txt
+  424  mv TP/dessus.txt TP/Dessus.txt
+  425  cd
+  426  cd TP; mv dessus.txt Dessus.txt
+  427  cd
+  428  cd TP; mv dessus.txt Dessus.txt
+  429  cd
+  430  mv TP/dessus.txt TP/Dessus.txt
+  431  cd TP
+  432  ls
+  433  cd
+  434  mv TP/Dessus.txt Dessus.txt
+  435  clear
+  436  mkdir @save_my_story_bash
+  437  history > @save_my_story_bash/save_1.txt
+  438  ls @save_my_story_bash/
+  439  mkdir lien_symboliques
+  440  touch lien_symboliques/original.txt
+  441  ls -l lien_symboliques/
+  442  ln lien_symboliques/original.txt 
+  443  ls -l
+  444  ls -l lien_symboliques/
+  445  clear
+  446  ls -i
+  447  ls -i -l
+  448  ls -i -l @save_my_story_bash/
+  449  ls -i -l lien_symboliques/
+  450  rm -rf original.txt 
+  451  ls -i -l
+  452  ls -i -l lien_symboliques/
+  453  rm -rf lien_symboliques/original.txt
+  454  clear
+  455  ls -i -l
+  456  ls -i -l lien_symboliques/
+  457  clear
+  458  rmdir lien_symboliques/
+  459  clear
+  460  mkdir lien_physiques_et_symboliques
+  461  touch lien_physiques_et_symboliques/original.txt
+  462  ln lien_physiques_et_symboliques/original.txt 
+  463  ls -i -l
+  464  ls -i -l lien_physiques_et_symboliques/
+  465  clear
+  466  cat original.txt 
+  467  cat lien_physiques_et_symboliques/ori
+  468  cat lien_physiques_et_symboliques/original.txt 
+  469  nano original.txt 
+  470  cat original.txt 
+  471  cat lien_physiques_et_symboliques/original.txt 
+  472  ls -i -l
+  473  ls -i -l lien_physiques_et_symboliques/
+  474  clear
+  475  touche original_2.txt
+  476  clear
+  477  touch lien_physiques_et_symboliques/original_2.txt
+  478  ln -s lien_physiques_et_symboliques/original_2.txt
+  479  ls -i -l
+  480  ls -i -l lien_physiques_et_symboliques/
+  481  clear
+  482  cat original_2.txt
+  483  cat lien_physiques_et_symboliques/original_2.txt 
+  484  nano original_2.txt
+  485  cat original_2.txt
+  486  cat lien_physiques_et_symboliques/original_2.txt 
+  487  ls -i -l
+  488  ls -i -l lien_physiques_et_symboliques/
+  489  clear
+  490  rm -rf lien_physiques_et_symboliques/original_2.txt
+  491  ls -i -l
+  492  ls -i -l lien_physiques_et_symboliques/
+  493  cat original_2.txt
+  494  clear
+  495  ls -ali
+  496  ls -il
+  497  ls -a
+  498  clear
+  499  cp lien_physiques_et_symboliques/original.txt lien_physiques_et_symboliques/original_2.txt
+  500  cd
+  501  clear
+  502  ls -ali
+  503  clear
+  504  ls -ali lien_physiques_et_symboliques/
+  505  cd
+  506  clear
+  507  ls -ali
+  508  ls -ali lien_physiques_et_symboliques/
+  509  clear
+  510  history > @save_my_story_bash/save_2.txt
+  511  clear
+  512  ls -ali @save_my_story_bash/
+  513  clear
+  514  tar TP
+  515  clear
+  516  tar -c TP
+  517  tar -c TP.zip
+  518  tar -c TP.gz
+  519  file TP
+  520  cd 
+  521  clear
+  522  mv @save_my_story_bash/save_1.txt @save_my_story_bash/save_cmd_bash_1.txt
+  523  mv @save_my_story_bash/save_2.txt @save_my_story_bash/save_cmd_bash_2.txt
+  524  ls -ali @save_my_story_bash/
+  525  file @save_my_story_bash/save_cmd_bash_1.txt *
+  526  file @save_my_story_bash/save_cmd_bash_1.txt
+  527  file *
+  528  clear
+  529  grep "Hello" TP
+  530  grep "Hello" lien_physiques_et_symboliques/
+  531  grep "Hello" lien_physiques_et_symboliques/original
+  532  grep "Hello" lien_physiques_et_symboliques/original.txt 
+  533  clear
+  534  tar cf TP.zip
+  535  tar cf TP.tar
+  536  tar cf TP.tar /TP
+  537  rm -rf TP.tar
+  538  mkdir cours
+  539  rmdir cours
+  540  clear
+  541  rmdir cours
+  542  clear
+  543  mkdir cours
+  544  touche README
+  545  clear
+  546  touch README
+  547  touch LISEZMOI
+  548  touche cours/notes1
+  549  touch cours/notes2
+  550  tree cours
+  551  touch cours/notes1
+  552  tree cours
+  553  mv README README.txt
+  554  mv LISEZMOI LISEZMOI.txt
+  555  mv cours/notes1 cours/notes1.txt
+  556  mv cours/notes2 cours/notes2.txt
+  557  clear
+  558  tree
+  559  clear
+  560  ls -l
+  561  ls -l cours/
+  562  cd cours
+  563  cd
+  564  clear
+  565  ls -ali
+  566  ls -ali cours/
+  567  cd
+  568  clear
+  569  ls
+  570  clear
+  571  cd -i
+  572  cd -l
+  573  ls -i
+  574  cd
+  575  clear
+  576  ls -al
+  577  cd 
+  578  clear
+  579  ls -ali
+  580  ls -ali cours/
+  581  clear
+  582  ls -ali cours/
+  583  chown
+  584  man chown
+  585  chown 664 cours/notes1.txt
+  586  sudo chown 664 cours/notes1.txt
+  587  ls -ali cours/
+  588  ls -ali
+  589  sudo chown 521 LISEZMOI.txt
+  590  ls -ali
+  591  clear
+  592  ls -ali cours/
+  593  ls -ali
+  594  tar -zcf cours.tar cours/*
+  595  rm -rf cours
+  596  cat cours.tar
+  597  tar zxf cours.tar
+  598  ls -ali cours/
+  599  cd /
+  600  clesr
+  601  clear
+  602  ls *
+  603  cd
+  604  clear
+  605  ls *
+  606  ls -ali
+  607  clear
+  608  cd /
+  609  ls *
+  610  cd /usr/include
+  611  ls *
+  612  clear
+  613  ls *
+  614  clear
+  615  cd /usr/include
+  616  ls *
+  617  grep "s"
+  618  grep "s" /
+  619  grep "s" /usr/include/
+  620  grep -E "s" /
+  621  grep -E "s"
+  622  ls * | grep -E "s" *
+  623  ls * | grep -E "s*"
+  624  ls * | grep -E -c "s*"
+  625  ls * | grep -E -c "*s"
+  626  ls * | grep -E "*s"
+  627  ls * | grep -E -c "[sS]"
+  628  ls * | grep -E "[sS]"
+  629  ls * | grep -E "[sS*]"
+  630  ls * | grep -E "[^.sS]"
+  631  ls * | grep -E "[sS^.]"
+  632  ls * | grep -E "^.[sS]"
+  633  ls * | grep -E "[sS]^."
+  634  ls * | grep -E "[^sS]"
+  635  ls * | grep -E "[^s]"
+  636  ls * | grep -E "[^S]"
+  637  ls * | grep -E "[^sS]"
+  638  ls * | grep -E "^sS"
+  639  ls * | grep -E "{^sS}"
+  640  ls s*
+  641  cd 
+  642  clear
+  643  ls -ali
+  644  ls -ali TP1
+  645  cd
+  646  clear
+  647  mkdir TP1/includeS
+  648  cp /usr/include s*
+  649  cp -r /usr/include s*
+  650  ls -l /TP1/includeS
+  651  tree /TP1
+  652  tree TP1
+  653  clear
+  654  ls -l /usr/include
+  655  ls -l s* /usr/include
+  656* ls -l /usr/include
+  657* 
+  658  clear
+  659  cp /usr/include/s* TP1/includeS/
+  660  tree TP1/includeS
+  661  ls -ali /usr/include
+  662  ls -ali s* /usr/include
+  663  tree /usr/include
+  664  clear
+  665  cp /usr/include/s* TP1/includeS*/ grep .h$
+  666  cp /usr/include/s* TP1/includeS* | grep .h$
+  667  tree TP1/includeS
+  668  ls -ali /usr/include/[a-b]*.h
+  669  ls /usr/include/[???]*.h
+  670  ls | grep "^[abc]" | grep ".h$"
+  671  ls -ali /usr/include/[a-b]*.h
+  672  ls | grep "[???]" | grep ".h"
+  673  ls /usr/include/???.*.h
+  674  ls * /usr/include > TP1/include.txt
+  675  ls * /usr/include > TP1/include_2.txt
+  676  tree /usr/include > TP1/include.txt
+  677  rm -rf TP1/include_2.txt
+  678  ls /usr/include/???*.h
+  679  ls /usr/include/???\.h
+  680  ls /usr/include/???.h
+  681  ls s*/usr/include
+  682  ls /usr/include/[s*]
+  683  ls /usr/include/s*
+  684  ls /usr/include | grep [sS*]
+  685  ls /usr/include | grep "[sS*]" | grep ".h"
+  686  ls /usr/include | grep ".h"
+  687  ls /usr/include | grep "^.h"
+  688  ls /usr/include | grep "^.h$"
+  689  ls /usr/include | grep ".h$"
+  690  ls /usr/include | grep "sS*^" | grep ".h$"
+  691  ls /usr/include/* | grep "sS*^" | grep ".h$"
+  692  ls /usr/include/* | grep "sS*^" * | grep ".h$" *
+  693  ls /usr/include/* && grep "sS*^" * && grep ".h$" *
+  694  grep ".h$" *
+  695  grep "^s" | grep ".h$" *
+  696  grep "sS^" * | grep ".h$" *
+  697  ls /usr/include/* | grep "sS*^" * | grep ".h$" *
+  698  ls /usr/include/* | grep "sS*^" /usr/include/* | grep ".h$" usr/include/*
+  699* grep ".h$"
+  700  ls /usr/include/* | grep "sS*^" | grep ".h$"
+  701  ls /usr/include/* && grep "sS*^" /usr/include/* && grep ".h$" usr/include/*
+  702  ls -l /usr/include/* && grep "sS*^" /usr/include/* && grep ".h$" usr/include/*
+  703  ls -l /usr/include/* && grep "sS^" /usr/include/* && grep ".h$" usr/include/*
+  704  ls -l /usr/include/* && grep "s^" /usr/include/* && grep ".h$" usr/include/*
+  705  clear
+  706  ls -l /usr/include/* && grep "s^" /usr/include/* && grep ".h$" usr/include/*
+  707  grep ".h$" usr/include/*
+  708  ls -l /usr/include/* && grep ".h$" usr/include/*
+  709* ls -l /usr/include/* && grep ".h$" usr/include/*
+  710  ls -lc /usr/include/* && grep ".h$" usr/include/*
+  711  ls /usr/include/* && grep ".h$" usr/include/*
+  712  ls -r /usr/include/* && grep ".h$" usr/include/*
+  713  ls /usr/include/* && grep ".h$" usr/include/*
+  714  ls /usr/include/* | grep ".h$" usr/include/*
+  715  ls /usr/include/* && grep ".h$" usr/include/*
+  716  ls /usr/include/* | grep ".h$"
+  717  ls /usr/include/* | grep "sS^" | grep ".h$"
+  718  ls /usr/include/* | grep "s^" | grep ".h$"
+  719  ls /usr/include/* | grep "^s" | grep ".h$"
+  720  ls /usr/include/* | grep ^s | grep ".h$"
+  721  ls /usr/include/* | grep ^.{sS} | grep ".h$"
+  722  ls /usr/include/* | grep ^.{sS}$ | grep ".h$"
+  723  ls /usr/include/* | grep ^.[sS]$ | grep ".h$"
+  724  ls /usr/include/* | grep ^.[s]$ | grep ".h$"
+  725  ls /usr/include/* | grep ^s
+  726  ls /usr/include/* | grep "s"
+  727  ls /usr/include/* | grep "s" *
+  728  ls /usr/include/* | grep [s] *
+  729  ls /usr/include/* | grep [s]
+  730  ls /usr/include/* | grep {s}
+  731  ls /usr/include/* | grep ".h$"
+  732  ls s* /usr/include/* | grep ".h$"
+  733  ls s /usr/include/* | grep ".h$"
+  734  ls /usr/include/* | grep "s().h$"
+  735  ls /usr/include/* | grep "s.h$"
+  736  ls /usr/include/* | grep "s^.h$"
+  737  ls /usr/include/* | grep "ŝ.h$"
+  738  ls /usr/include/* | grep "s"
+  739  ls /usr/include/* | grep "s()"
+  740  ls /usr/include/* | grep "^s"
+  741  ls /usr/include/* | grep "^s$"
+  742  ls /usr/include/* | grep "s$"
+  743  ls /usr/include/* | grep "^s$"
+  744  ls /usr/include/* | grep "s$"
+  745  ls /usr/include/* | grep "s"
+  746  ls /usr/include/* | grep "^s"
+  747  ls /usr/include/* | grep "s^"
+  748  ls /usr/include/* | grep ŝ
+  749  l /usr/include/* | grep ŝ
+  750  ls /usr/include/* | grep ^s
+  751  ls /usr/include/* | grep ".h$"
+  752  ls /usr/include/* | grep "s(*).h$"
+  753  ls /usr/include/* | grep "s(?).h$"
+  754  ls /usr/include/* | grep "s(*)"
+  755  ls /usr/include/* | grep "^[s].h$"
+  756  ls /usr/include/* | grep "^[^s].h$"
+  757  ls /usr/include/* | grep "^(s).h$"
+  758  ls /usr/include/* | grep "^[s]"
+  759  ls /usr/include/* | grep "^[^s]"
+  760  ls /usr/include/* | grep "[^s]"
+  761  ls /usr/include/* | grep "[s]"
+  762  ls /usr/include/* | grep "^[s]"
+  763  ls /usr/include/* | grep ^[s]
+  764  ls /usr/include/* | grep "^s\.h$"
+  765  ls /usr/include/* | grep "^s\|.h$"
+  766  ls /usr/include/* | grep "^s\,.h$"
+  767  ls /usr/include/* | grep "^.h$"
+  768  ls /usr/include/* | grep ".h$"
+  769  ls "...\.h"
+  770  ls /usr/include/* | grep ^s | grep ".h$"
+  771  ls /usr/include/* | grep "s*.h$"
+  772  ls "s*.h$"
+  773  ls -1 "s*.h$"
+  774  ls -1 "s*.h"
+  775  ls -1 s*.h
+  776  ls s*.h
+  777  ls -1
+  778  ls -1 s*.h /usr/include
+  779  ls -1 s* /usr/include | grep ".h"
+  780  ls -1 s* /usr/include | grep "*.h$"
+  781  ls -1 s* /usr/include | grep ".h$"
+  782  cd /usr/include
+  783  ls -1 s*.h
+  784  ls -1 s*
+  785  ls s*.h
+  786  cd 
+  787  ls -l
+  788  rmdir TP1/includeS
+  789  rmdir -rf TP1/includeS
+  790  sudo rmdir TP1/includeS
+  791  rm -rf TP1/includeS
+  792  cd TP1
+  793  cat montext.txt 
+  794  cat montext.txt
+  795  cat montext2.txt
+  796  cat montext.txt > montext2.txt 
+  797  devinette numero 4 :
+  798  pince mi et pince moi
+  799  sont dans un bateau.
+  800  pince mi tombe à l'eau.
+
+qui est ce qui reste ?
+  801  cat devinette.txt
+  802  cd
+  803  touch devinette.txt
+  804  nano devinette.txt 
+  805  cat devinettte.txt
+  806  cat devinette.txt
+  807  cat devinette.txt | grep ce | wc -l 
+  808  cat devinette.txt | grep 4 | wc -l 
+  809  touch dico_francais.txt
+  810  nano dico_francais.txt
+  811  cat devinette.txt | grep 4 | wc -l 
+  812  cat devinette.txt | grep 4
+  813  cat devinette.txt | grep 6
+  814  cat devinette.txt | grep 4
+  815  cat devinette.txt | grep 5
+  816  cat devinette.txt
+  817  clear
+  818  ls
+  819  ls -ali
+  820  ls -ali @save_my_story_bash/
+  821  cd @save_my_story_bash/
+  822  cd
+  823  history > @save_my_story_bash/save_cmd_bash_3.txt

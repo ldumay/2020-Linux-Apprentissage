@@ -1,0 +1,11 @@
+Dumont;23;L3
+Brian;21;L3
+Ryan;20;L3
+Jule;23;M2
+Camille;24;Y1
+Lyna;22;Y1
+Laure;20;I2
+Isabelle;21;I2
+Luc;24;L3
+Charles;25;I2
+Sami;22;L3
