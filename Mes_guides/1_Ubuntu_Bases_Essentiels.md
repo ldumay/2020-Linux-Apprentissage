@@ -53,8 +53,8 @@
 #### Compilateur - GCC - C & C++
 > sudo apt install gcc
 
-#### Compilateur - JDK - Java
-> sudo apt install [jdk]
+#### Compilateur - Java JRE & JDK
+> sudo apt install openjdk-14-jre-headless
 
 #### Compilateur - Python - Python
 > sudo apt install python
@@ -72,8 +72,8 @@
 
 ### 4 | Gestionnaires des tâches crown
 
-#### Compilateur - Crown
-> sudo apt install crown
+#### Compilateur - Cron
+> sudo apt install cron
 
 ### 5 | Serveur Web
 
@@ -84,9 +84,11 @@
 > sudo apt install nodejs
 
 ### 6 | Serveur SQL
-Installation :
+
+#### 1) Installation :
 > sudo apt install mysql-server
-Confguration :
+
+#### 2) Confguration :
 > sudo mysql_secure_installation
 
 ```
@@ -122,7 +124,10 @@ Re-enter new password:
 Répondre => <votre_mot_de_passe>
 ```
 Estimated strength of the password: 0 
-Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) :
+```
+Repondre => y
+```
 By default, a MySQL installation has an anonymous user,
 allowing anyone to log into MySQL without having to have
 a user account created for them. This is intended only for
@@ -185,7 +190,7 @@ Success.
 
 All done! 
 ```
-Connexion au service MySQL
+#### 3) Connexion au service MySQL
 > sudo mysql
 ```
 Welcome to the MySQL monitor.  Commands end with ; or \g.
