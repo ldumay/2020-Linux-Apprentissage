@@ -1,0 +1,340 @@
+    1  cd 2020-Linux-Apprentissage/
+    2  git log
+    3  cd 2020-Linux-Apprentissage/
+    4  git log
+    5  git status
+    6  git statuts
+    7  git status
+    8  git push
+    9  git push dumay.famille@gmail.com
+   10  git push
+   11  git log --oneline --graph
+   12  git reset --hard Head
+   13  git reset --hard HEAD
+   14  git log --oneline --graph
+   15  cd
+   16  ls -ali
+   17  clear
+   18  cd
+   19  cd 2020-Linux-Apprentissage/
+   20  ls
+   21  cd Mes_guides/
+   22  ls
+   23  clear
+   24  tree
+   25  cd
+   26  cd 20
+   27  cd 2020-Linux-Apprentissage/
+   28  ls
+   29  clear
+   30  tree
+   31  mv Mes_guides/1_ReadMe.md Mes_guides/1_Ubuntu.md
+   32  tree
+   33  mv Mes_guides/3_Ubuntu_errors.md Mes_guides/2_Ubuntu_errors.md 
+   34  tree
+   35  clear
+   36  tree
+   37  mv Git_configuration.md Mes_guides/3_Git_configuration.md 
+   38  mv Mes_guides/3_Guide_Jenkins.md Mes_guides/4_Guide_Jenkins.md 
+   39  tree
+   40  mv Mes_guides/1_Ubuntu.md Mes_guides/1_Ubuntu_Bases_Essentiels.md 
+   41  tree
+   42  mkdir Mes_tests
+   43  tree Mes_tests/
+   44  cat Mes_tests/
+   45  cat Mes_tests/LISEZMOI.txt 
+   46  cat Mes_tests/
+   47  tree Mes_tests/
+   48  cd
+   49  tar --help
+   50  history | grep "tar"
+   51  cd 2020-Linux-Apprentissage/
+   52  cd Mes_tests/
+   53  ls
+   54  ls -ali
+   55  cd TP1
+   56  ls -ali
+   57  tar -cf include.tar include
+   58  ls
+   59  ls -ali
+   60  rm -rf include
+   61  cd ./
+   62  cd ../
+   63  tree
+   64  cd ../../
+   65  cd 2020-Linux-Apprentissage/
+   66  git log
+   67  sudo apt install git
+   68  git clone https://github.com/ldumay/2020-Linux-Apprentissage.git
+   69  git -h
+   70  git mane
+   71  git man
+   72  git help
+   73  cd usr/share/appdata
+   74  cd usr/share/
+   75  cd usr/
+   76  cd usr
+   77  cd
+   78  cd /
+   79  cd usr/share/appdata
+   80  ls -ali
+   81  cd
+   82  killall snap-store
+   83  cd 2020-Linux-Apprentissage/
+   84  touch Ubuntu_errors.md
+   85  nano Ubuntu_errors.md
+   86  git log
+   87  git status
+   88  git commit
+   89  git config --global 
+   90  git config
+   91  git config list
+   92  git config --global user.name "ldumay"
+   93  git config --global "dumay.famille@gmail.com"
+   94  git config --list
+   95  touch Git_configuration.md
+   96  git config
+   97  git commit
+   98  git config --global user.name "ldumay"
+   99  git config --global user.email "dumay.famille@gmail.com"
+  100  git commit
+  101  git log
+  102  git help
+  103  git add help
+  104  git add
+  105  git commit "preparation_1"
+  106  git add /img
+  107  git add img
+  108  git log
+  109  git add Git_configuration.md
+  110  git add Ubuntu_errors.md
+  111  git commit "preparation_1"
+  112  git commit -m "preparation_1"
+  113  git log
+  114  cd
+  115  ls -ali
+  116  cd _Datas_Ubuntu_Win/
+  117  ls -ali
+  118  tar --help
+  119  tar -xf temp.tar /temp
+  120  tar -xf temp.tar
+  121  ls -ali
+  122  cd
+  123  apt install tree
+  124  sudo apt install t
+  125  cd _Datas_Ubuntu_Win/
+  126  tree
+  127  cd
+  128  git clone https://github.com/ldumay/2020-Linux-Apprentissage.git
+  129  git clone https://github.com/jamiemcg/Remarkable.git
+  130  cd Remarkable/
+  131  ls -ali
+  132  sh run.sh 
+  133  cat README.md 
+  134  cd
+  135  rmdir Remarkable/
+  136  rm -rf Remarkable/
+  137  ls -ali
+  138  clear
+  139  cd _temp
+  140  cd _Datas_Ubuntu_Win/
+  141  ls 
+  142  cd _temp/
+  143  clear
+  144  tree @A_ReadMe/
+  145  tree brian/
+  146  tree @B_dpkg_ubuntu_pakages/
+  147  tree Projet/
+  148  sudo tree Projet/
+  149  tree mdview-temp/
+  150  tree @A_save_my_story_bash/
+  151  tree @B_dpkg_ubuntu_pakages/
+  152  tree
+  153  cd
+  154  cd NetBeansProjects/
+  155  cd 
+  156  tree NetBeansProjects/
+  157  tree 2020-Linux-Apprentissage/Mes_tests/Projet/
+  158  tree NetBeansProjects/
+  159  cd
+  160  clear
+  161  tree NetBeansProjects/
+  162  history | grep "tar"
+  163  cd 2020-Linux-Apprentissage/
+  164  clear
+  165  cd
+  166  rm -rf _Datas_Ubuntu_Win/
+  167  cd 202
+  168  cd 2020-Linux-Apprentissage/
+  169  clear
+  170  git log
+  171  tree
+  172  clear
+  173  git log
+  174  git config --global user.name "LDumay"
+  175  git config --global user.email "dumay.famille@gmail.com"
+  176  git config --list
+  177  clear
+  178  git log
+  179  git status
+  180  git add Mes_guides/
+  181  git add Mes_tests/
+  182  git add Save_1
+  183  git add Save_1_my_story_bash/
+  184  git add Save_2_dpkg_ubuntu_pakages/
+  185  git status
+  186  git add Mes_guides/3_Git_config_et_usages.md 
+  187  git status
+  188  git add Mes_guides/3_Git_config_et_usages.md 
+  189  git status
+  190  git add Mes_guides/3_Git_config_et_usages.md 
+  191  git status
+  192  git add Mes_guides/3_Git_config_et_usages.md 
+  193  git status
+  194  git commit -m "Bases de Guides et Tests"
+  195  git status
+  196  git add Mes_tests/Projet/
+  197  git commit -m "Correction de droits du dossier projet pour envoi sur git"
+  198  git status
+  199  git push
+  200  git push -u origin master
+  201  git push
+  202  cd 2020-Linux-Apprentissage/
+  203  tree
+  204  cd
+  205  clear
+  206  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  207  sudo dpkg –i google-chrome-stable_current_amd64.deb
+  208  ls -ali
+  209  rm -rf google-chrome-stable_current_amd64.deb 
+  210  ls -ali
+  211  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  212  sudo dpkg –i google-chrome-stable_current_amd64.deb
+  213  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  214  ls -ali
+  215  rm -rf google-chrome-stable_current_amd64.deb
+  216  rm -rf google-chrome-stable_current_amd64.deb.1 
+  217  clear
+  218  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  219  sudo dpkg –i google-chrome-stable_current_amd64.deb
+  220  clear
+  221  ls -ali
+  222  rm -rf google-chrome-stable_current_amd64.deb 
+  223  clear
+  224  sudo apt install google-chrome-stable
+  225  sudo apt install google-chrome
+  226  sudo apt install google
+  227  sudo apt install chrome
+  228  clear
+  229  wget -q -0 - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  230  clear
+  231  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  232  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  233  kill google
+  234  kill google-chrome
+  235  top
+  236  kill chrome
+  237  kill 12959
+  238  kill 12959 && kill 12980
+  239  kill 12980
+  240  kill 12959
+  241  apt update
+  242  sudo apt update && apt upgrade
+  243  Lopiso78700
+  244  sudo apt update && apt upgrade
+  245  sudo su
+  246  ls -ali
+  247  rm -rf google-chrome-stable_current_amd64.deb 
+  248  nano .bash_history
+  249  grep "Lopiso78700" .bash_history 
+  250  nano .bash_history
+  251  sudo --remove google-chrome-stable
+  252  sudo dpkg --remove google-chrome-stable
+  253  curl
+  254  sudo apt install curl
+  255  curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+  256  echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+  257  ls -ali
+  258  curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+  259  echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+  260  sudo apt update
+  261  sudo apt install brave-browser
+  262  sudo dpkg --remove brave-browser
+  263  sudo dpkg --remove sublime-merge
+  264  sudo dpkg --remove Sublime-Merge
+  265  dpkg --list
+  266  clear
+  267  dpkg --list > dpkg.txt
+  268  grep "sublime"
+  269  dpkg --list
+  270  clera
+  271  clear
+  272  cd 20
+  273  cd 2020-Linux-Apprentissage/
+  274  ls -ali
+  275  cd Mes_guides/
+  276  ls -ali
+  277  mv 3_Git_configuration.md 3_Git_config_et_usages.md
+  278  git --version
+  279  git config --list
+  280  pwd
+  281  ls-ali
+  282  ls -ali
+  283  cd ../
+  284  ls -ali
+  285  cd ../
+  286  ls -ali
+  287  cat .gitconfig 
+  288  clear
+  289  cd 2020-Linux-Apprentissage/
+  290  git statuts
+  291  git statut
+  292  git status
+  293  git --help
+  294  tree
+  295  tree Mes_tests/
+  296  tree Mes_tests/Projet/
+  297  sudo tree Mes_tests/Projet/
+  298  sudo ls -ali Mes_tests/Projet/
+  299  sudo chmod w+r+x Mes_tests/Projet/
+  300  sudo chmod 755 Mes_tests/Projet/
+  301  sudo ls -ali Mes_tests/Projet/
+  302  sudo ls -ali Mes_tests/Projet/Projet-L3
+  303  sudo chmod 755 Mes_tests/Projet/Projet-L3
+  304  sudo ls -ali Mes_tests/Projet/
+  305  ls -ali
+  306  sudo chmod 777 Mes_tests/Projet/Projet-L3
+  307  ls -ali Mes_tests/Projet/
+  308  sudo chmod 766 Mes_tests/Projet/Projet-L3
+  309  ls -ali Mes_tests/Projet/
+  310  sudo chmod 775 Mes_tests/Projet/Projet-L3
+  311  sudo chmod 775 Mes_tests/Projet/ProjetM1
+  312  sudo chmod 775 Mes_tests/Projet/Projet-M1
+  313  sudo chmod 775 Mes_tests/Projet/Projet-M2
+  314  ls -ali Mes_tests/Projet/
+  315  ls -ali Mes_tests/Projet/Projet-L3
+  316  git log
+  317  cat 2020-Linux-Apprentissage/Mes_guides/1_Ubuntu_Bases_Essentiels.md 
+  318  sudo apt install gcc
+  319  java --version
+  320  sudo apt install openjdk-14-jre-headless
+  321  python
+  322  python3
+  323  clear
+  324  sudo apt install npm
+  325  sudo apt install crown
+  326  sudo apt install cron
+  327  sudo apt autoremove
+  328  sudo apt update && apt upgrade
+  329  sudo su apt update && apt upgrade
+  330  sudo su 
+  331  clear
+  332  apt install php
+  333  sudo apt install php
+  334  sudo apt install nodejs
+  335  clear
+  336  sudo apt install mysql-server
+  337  sudo mysql_secure_installation
+  338  sudo mysql
+  339  clear
+  340  history > 2020-Linux-Apprentissage/Save_1_my_story_bash/save_cmd_bash_012.txt
