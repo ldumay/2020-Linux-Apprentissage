@@ -67,6 +67,12 @@ Une fois les fichiers et dossiers souhaités ajouté à un suivi git d'un projet
 git status
 ```
 
+Bonus : Il est possible d'effectué lé commande ci-desous pour valider d'un seul coup tout les changements.
+
+```
+git add -A
+```
+
 Vous obtenez de nouveau ce résultat ci-dessous.
 
 ```

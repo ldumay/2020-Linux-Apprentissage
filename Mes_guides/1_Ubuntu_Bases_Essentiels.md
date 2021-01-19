@@ -1,4 +1,4 @@
-# Read Me - Full - Ubuntu
+# Les bases essentiels pour Ubuntu 20.04.1 LTS
 
 ## A | Commandes Princiaples
 
@@ -53,7 +53,9 @@
 #### Compilateur - GCC - C & C++
 > sudo apt install gcc
 
-#### Compilateur - Java JRE & JDK
+#### Compilateur - Java JRE
+apt install default-jre
+#### Compilateur - Java JDK
 > sudo apt install openjdk-14-jre-headless
 
 #### Compilateur - Python - Python
@@ -229,3 +231,10 @@ mysql>
 
 #### xemacs21
 > sudo apt install xemacs21
+
+### 9 | Désintstaller un paquet
+> sudo apt purge <le_nom_du_paquet_installé>
+
+### 10 | La commande "apt"
+- source 1 - [Ma source de recherche](https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubuntu-packages/)
+- source 2 - [Ma source de recherche](http://doc.ubuntu-fr.org/tutoriel/comment_supprimer_un_paquet)
