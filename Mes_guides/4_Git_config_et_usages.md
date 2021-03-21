@@ -128,3 +128,7 @@ Bien sûr, il vous est demander de renseigner vos identifiants de laison à votr
 Username for 'https://github.com': <votre_identifiant>
 Password for 'https://<votre_identifiant_récupéré>@github.com' : <votre_mot_de_passe>
 ```
+
+### 7 - Pour aller plus loin
+
+=> https://www.hostinger.fr/tutoriels/commandes-git
