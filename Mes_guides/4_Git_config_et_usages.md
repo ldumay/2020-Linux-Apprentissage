@@ -114,6 +114,14 @@ git reset --soft HEAD ~ 1
 git reset --hard HEAD ~ 1
 ```
 
+-> Annuler plusieurs commit en retirant les modifications qui ont été effectuées.
+
+![Multiple Undo](./img/git_mutiple_undo.png)
+
+```
+git reset --hard 0ad5a7a6
+```
+
 ### 6 - Envoyer le tous à ce même suivi git d'un projet
 
 Enfin, il suffit d'envoyer le tous à ce même suivi git d'un projet. La commande qui permet cela est celle-ci :
@@ -131,4 +139,4 @@ Password for 'https://<votre_identifiant_récupéré>@github.com' : <votre_mot_d
 
 ### 7 - Pour aller plus loin
 
-=> https://www.hostinger.fr/tutoriels/commandes-git
+=> [https://www.hostinger.fr/tutoriels/commandes-git](https://www.hostinger.fr/tutoriels/commandes-git)
