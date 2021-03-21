@@ -27,7 +27,7 @@
 >
 > sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-##### b) Désinstatllation
+##### b) Désinstallation
 > sudo dpkg --remove google-chrome-stable
 
 #### 2 | Navigateur - Brave
@@ -40,7 +40,7 @@
 >
 > sudo apt install brave-browser
 
-##### b) Désinstatllation
+##### b) Désinstallation
 > sudo dpkg --remove brave-browser
 
 ### 3 | Ouvrir un fichier depuis un navigateur

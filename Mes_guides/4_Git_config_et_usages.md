@@ -98,7 +98,23 @@ Maintenant, il faut soumettre vos nouveaux fichiers et dossiers à un suivi git 
 git commit -m "Votre Titre"
 ```
 
-### 5 - Envoyer le tous à ce même suivi git d'un projet
+### 5 - Annuler le commit précédent non envoyer (->"undo commit")
+
+Pour annuler le commit précédent qui n'a pas encore été envoyer, il y a cas principeaux à prendre en compte : en gardant ou retirant les modifications.
+
+-> Annuler un commit en gardant les modifications qui ont été effectuées.
+
+```
+git reset --soft HEAD ~ 1
+```
+
+-> Annuler un commit en retirant les modifications qui ont été effectuées.
+
+```
+git reset --hard HEAD ~ 1
+```
+
+### 6 - Envoyer le tous à ce même suivi git d'un projet
 
 Enfin, il suffit d'envoyer le tous à ce même suivi git d'un projet. La commande qui permet cela est celle-ci :
 
