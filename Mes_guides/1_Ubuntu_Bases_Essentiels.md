@@ -3,7 +3,7 @@
 ## A | Commandes Princiaples
 
 ### 1 | Mise à jour des paquets
-> sudo apt update && apt upgrade && apt clean
+> sudo apt update && apt upgrade && apt clean && apt purge
 
 ### 2 | Services de ubuntu
 > service --status-all
