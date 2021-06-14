@@ -233,7 +233,11 @@ mysql>
 > sudo apt install xemacs21
 
 ### 9 | Désintstaller un paquet
-> sudo apt purge <le_nom_du_paquet_installé>
+> sudo apt purge <le_nom_du_paquet_installé>*
+
+```
+* => pour toutes les versions du paquet
+```
 
 ### 10 | La commande "apt"
 - source 1 - [Ma source de recherche](https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubuntu-packages/)

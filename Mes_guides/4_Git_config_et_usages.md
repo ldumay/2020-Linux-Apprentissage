@@ -140,3 +140,9 @@ Password for 'https://<votre_identifiant_récupéré>@github.com' : <votre_mot_d
 ### 7 - Pour aller plus loin
 
 => [https://www.hostinger.fr/tutoriels/commandes-git](https://www.hostinger.fr/tutoriels/commandes-git)
+
+### 8 - Change le remote de git
+
+```
+git remote set-url origin <lien_ssh_du_répo>
+```
